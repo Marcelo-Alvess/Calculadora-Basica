@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <form name="calculator" class="calculator">
+                <input type="text" readonly name="txt" class="value"/>
+                <span onclick="calculator.txt.value = ''" class="clear">c</span>
+                <span onclick="calculator.txt.value += '/'">/</span>
+                <span onclick="calculator.txt.value += '*'">*</span>
+                <span onclick="calculator.txt.value += '7'">7</span>
+                <span onclick="calculator.txt.value += '8'">8</span>
+                <span onclick="calculator.txt.value += '9'">9</span>
+                <span onclick="calculator.txt.value += '-'">-</span>
+                <span onclick="calculator.txt.value += '4'">4</span>
+                <span onclick="calculator.txt.value += '5'">5</span>
+                <span onclick="calculator.txt.value += '6'">6</span>
+                <span onclick="calculator.txt.value += '+'" class="plus">+</span>
+                <span onclick="calculator.txt.value += '1'">1</span>
+                <span onclick="calculator.txt.value += '2'">2</span>
+                <span onclick="calculator.txt.value += '3'">3</span>
+                <span onclick="calculator.txt.value += '0'">0</span>
+                <span onclick="calculator.txt.value += '00'">00</span>
+                <span onclick="calculator.txt.value += '.'">.</span>
+                <span onclick="calculator.txt.value = eval(calculator.txt.value)">=</span>
+            </form>
+        </div>
+    </body>
+</html>
