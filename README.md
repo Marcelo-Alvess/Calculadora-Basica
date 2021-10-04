@@ -7,7 +7,7 @@ Página feita em HTML, CSS utilizando conceitos de flex e grid do CSS
 <br>
 
 <p align="center">
-  <img alt="gifPage" src="./.github/project-calculator" width="50%">
+  <img alt="gifPage" src="./.github/project-calculator.gif" width="50%">
 </p>
 
 ## 🚀 Tecnologias
